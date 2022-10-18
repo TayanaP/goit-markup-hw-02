@@ -1,0 +1,58 @@
+.page{
+color: #757575;
+background-color: #FFFFFF ;
+}
+
+/* цвет ? */
+.logo{
+    color: #000000;
+}
+
+.logo:hover,
+.logo:focus{
+    color: #2196F3;
+}
+
+.site-nav .link{
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+
+.site-address .link{
+    color: #757575;;
+}
+
+.site-address .link:hover,
+.site-address .link:focus{
+    color: #2196F3;;
+}
+
+.button{
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.button:hover,
+.button:focus{
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.list-button .link{
+    background: #F5F4FA;
+    color: #212121;
+}
+
+.list-button .link:hover,
+.list-button .link:focus{
+    background: #2196F3;
+    color: #FFFFFF;;
+}
+/* вторичній цвет #212121 */
+/* основной цвет #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3; */

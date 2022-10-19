@@ -1,58 +1,153 @@
-.page{
-color: #757575;
-background-color: #FFFFFF ;
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --text-accent: #2196F3;
 }
 
-/* цвет ? */
+body{
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;
+}
+
+.header{
+    background: #FFFFFF;
+}
+
 .logo{
     color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.footer-logo{
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.footer-logo:hover,
+.footer-logo:focus{
+    color: var(--text-accent); 
+}
+
+.logo-link {
+    color: var(--text-accent); 
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;                                         
 }
 
 .logo:hover,
 .logo:focus{
-    color: #2196F3;
+    color: var(--text-accent);
+}
+
+.list{
+    list-style: none;
 }
 
 .site-nav .link{
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color: var(--text-accent);
 }
 
 .site-address .link{
-    color: #757575;;
+    color: var(--primary-text-color);
 }
 
 .site-address .link:hover,
 .site-address .link:focus{
-    color: #2196F3;;
+    color: var(--text-accent);
+}
+
+.hero{
+    background: #2F303A;
+}
+
+.hero-title{
+    color: #FFFFFF;;
 }
 
 .button{
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--text-accent);
 }
 
 .button:hover,
 .button:focus{
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--text-accent);
+}
+
+.desc{
+    background: #F5F5F5;
+}
+
+.desc-title{
+    color: var(--title-text-color);
+}
+
+.images{
+    background: #F5F5F5;  
+}
+
+.images-title{
+    color: var(--title-text-color);
+}
+
+.team{
+    background: #F5F4FA;
+}
+
+.team-title{
+    color: var(--title-text-color);
+}
+
+.footer{
+    background: #2F303A;
+}
+
+/* Portfolio */
+
+.portfolio{
+    background: #F5F5F5;
 }
 
 .list-button .link{
     background: #F5F4FA;
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .list-button .link:hover,
 .list-button .link:focus{
-    background: #2196F3;
+    background: var(--text-accent);
     color: #FFFFFF;;
 }
-/* вторичній цвет #212121 */
-/* основной цвет #757575 */
+
+.section-title{
+    color: var(--title-text-color);
+}
+
+.footer-address .link{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus{
+    color: var(--text-accent);
+}
+
+/* основной цвет #212121 */
+/* вторичній цвет #757575; */
 /* белый #FFFFFF */
 /* акцент #2196F3; */

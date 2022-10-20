@@ -14,12 +14,144 @@ letter-spacing: 0.03em;
     background: #FFFFFF;
 }
 
-.logo{
+.header-logo{
     color: #000000;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+}
+
+.header-logo:hover,
+.header-logo:focus{
+    color: var(--text-accent);
+}
+
+.logo-link {
+    color: var(--text-accent); 
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;                                         
+}
+
+.list{
+    list-style: none;
+}
+
+.site-nav .link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    }
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--text-accent);
+}
+
+.site-nav .link.current{
+    color: var(--text-accent);
+}
+
+.site-address .link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14
+    letter-spacing: 0.02em;
+}
+
+.site-address .link:hover,
+.site-address .link:focus{
+    color: var(--text-accent);
+}
+
+/* Main */
+
+.hero{
+    background: #2F303A;
+    }
+
+.hero-title{
+    color: #FFFFFF;;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.button{
+    color: #FFFFFF;
+    background: var(--text-accent);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+    color: #FFFFFF;
+    background: var(--text-accent);
+}
+
+.desc{
+    background: #F5F5F5;
+}
+
+.images-title, 
+.team-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.desc-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.desc .text{
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-title{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.images{
+    background: #F5F5F5;  
+}
+
+.team{
+    background: #F5F4FA;
+}
+
+.team .text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* Footer */
+
+.footer{
+    background: #2F303A;
 }
 
 .footer-logo{
@@ -35,86 +167,11 @@ letter-spacing: 0.03em;
     color: var(--text-accent); 
 }
 
-.logo-link {
-    color: var(--text-accent); 
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;                                         
-}
-
-.logo:hover,
-.logo:focus{
-    color: var(--text-accent);
-}
-
-.list{
-    list-style: none;
-}
-
-.site-nav .link{
-    color: var(--primary-text-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus{
-    color: var(--text-accent);
-}
-
-.site-address .link{
-    color: var(--primary-text-color);
-}
-
-.site-address .link:hover,
-.site-address .link:focus{
-    color: var(--text-accent);
-}
-
-.hero{
-    background: #2F303A;
-}
-
-.hero-title{
-    color: #FFFFFF;;
-}
-
-.button{
+.footer .text{
     color: #FFFFFF;
-    background: var(--text-accent);
-}
-
-.button:hover,
-.button:focus{
-    color: #FFFFFF;
-    background: var(--text-accent);
-}
-
-.desc{
-    background: #F5F5F5;
-}
-
-.desc-title{
-    color: var(--title-text-color);
-}
-
-.images{
-    background: #F5F5F5;  
-}
-
-.images-title{
-    color: var(--title-text-color);
-}
-
-.team{
-    background: #F5F4FA;
-}
-
-.team-title{
-    color: var(--title-text-color);
-}
-
-.footer{
-    background: #2F303A;
+    font-size: 14px;
+    line-height: 1.71;
+    
 }
 
 /* Portfolio */
@@ -126,6 +183,7 @@ letter-spacing: 0.03em;
 .list-button .link{
     background: #F5F4FA;
     color: var(--title-text-color);
+    cursor: pointer;
 }
 
 .list-button .link:hover,
@@ -134,8 +192,18 @@ letter-spacing: 0.03em;
     color: #FFFFFF;;
 }
 
-.section-title{
+.portfolio-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio .text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 .footer-address .link{
@@ -146,6 +214,9 @@ letter-spacing: 0.03em;
 .footer-address .link:focus{
     color: var(--text-accent);
 }
+
+
+
 
 /* основной цвет #212121 */
 /* вторичній цвет #757575; */

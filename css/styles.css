@@ -137,6 +137,10 @@ background: #FFFFFF;
     line-height: 1.19;
 }
 
+.picture{
+    background: #FFFFFF;
+}
+
 /* Footer */
 
 .footer{
@@ -170,10 +174,6 @@ background: #FFFFFF;
 }
 
 /* Portfolio */
-
-.portfolio{
-    background: #F5F5F5;
-}
 
 .list-button .link{
     background: #F5F4FA;

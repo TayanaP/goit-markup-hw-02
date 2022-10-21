@@ -8,11 +8,10 @@ body{
 color: var(--primary-text-color);
 font-family: Roboto, sans-serif;
 letter-spacing: 0.03em;
+background: #FFFFFF;
 }
 
-.header{
-    background: #FFFFFF;
-}
+/* Header */
 
 .header-logo{
     color: #000000;
@@ -22,17 +21,13 @@ letter-spacing: 0.03em;
     line-height: 1.2;
 }
 
-.header-logo:hover,
-.header-logo:focus{
-    color: var(--text-accent);
-}
-
 .logo-link {
     color: var(--text-accent); 
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;                                         
+    line-height: 1.2;
+    text-decoration: none;                                         
 }
 
 .list{
@@ -40,11 +35,12 @@ letter-spacing: 0.03em;
 }
 
 .site-nav .link{
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     }
 
 .site-nav .link:hover,
@@ -62,6 +58,7 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.14
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-address .link:hover,
@@ -96,12 +93,8 @@ letter-spacing: 0.03em;
 
 .button:hover,
 .button:focus{
+    background: #188CE8;
     color: #FFFFFF;
-    background: var(--text-accent);
-}
-
-.desc{
-    background: #F5F5F5;
 }
 
 .images-title, 
@@ -134,10 +127,6 @@ letter-spacing: 0.03em;
     line-height: 1.19;
 }
 
-.images{
-    background: #F5F5F5;  
-}
-
 .team{
     background: #F5F4FA;
 }
@@ -162,16 +151,22 @@ letter-spacing: 0.03em;
     line-height: 1.2;
 }
 
-.footer-logo:hover,
-.footer-logo:focus{
-    color: var(--text-accent); 
-}
-
 .footer .text{
     color: #FFFFFF;
     font-size: 14px;
-    line-height: 1.71;
-    
+    font-style: normal;
+    line-height: 1.71; 
+}
+
+.footer-address .link{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus{
+    color: var(--text-accent);
 }
 
 /* Portfolio */
@@ -206,14 +201,6 @@ letter-spacing: 0.03em;
     line-height: 1.88;
 }
 
-.footer-address .link{
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-address .link:hover,
-.footer-address .link:focus{
-    color: var(--text-accent);
-}
 
 
 
